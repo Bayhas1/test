@@ -34,9 +34,8 @@ def run():
     st.subheader('Raw Data')
 
     # The URL of the CSV file to be read into a DataFrame
-    csv_url = "https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv"
 
-    #csv_url = "/content/drive/Shareddrives/AI Launch Lab (Shared Drive)/R&D Programs 2024/AI Team (Weekly Content)/insurance.csv"
+    csv_url = "/content/drive/insurance.csv"
 
     # Reading the CSV data from the specified URL into a DataFrame named 'df'
     df = pd.read_csv(csv_url)
