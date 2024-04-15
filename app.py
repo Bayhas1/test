@@ -35,7 +35,7 @@ def run():
 
     # The URL of the CSV file to be read into a DataFrame
 
-    csv_url = "insurance.csv"
+    csv_url = "./data/insurance.csv"
 
     # Reading the CSV data from the specified URL into a DataFrame named 'df'
     df = pd.read_csv(csv_url)
